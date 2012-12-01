@@ -1,14 +1,5 @@
 #!/usr/bin/python2
 
-# Usage:
-# txt2bf.py input_file output_file
-# 
-# txt2bf.py some\ random\ string output_file
-#
-# txt2bf.py input_file          // output goes to stdout
-#
-# txt2bf.py input_file --no-nl  // without newlines - everything is in single line
-
 from sys import argv
 from os import path
 
